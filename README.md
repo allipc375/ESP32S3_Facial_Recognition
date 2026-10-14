@@ -1,6 +1,6 @@
 # Low-Cost Facial Recognition System with ESP32-S3 and Neural Networks
 
-ESP-DL(Espressif Deep Learning Library) is Espressif’s lightweight, high‑performance neural network inference framework designed specifically for ESP32‑series chips, enabling AI applications directly on devices like the ESP32‑S3 microcontroller
+ESP-DL (Espressif Deep Learning Library) is Espressif’s lightweight, high‑performance neural network inference framework designed specifically for ESP32‑series chips, enabling AI applications directly on devices like the ESP32‑S3 microcontroller
 
 It is optimized for low power, low cost, and constrained embedded environments, making it ideal for AIoT (AI + Internet of Things) use cases such as object detection, image classification, and tracking​. In the context of facial recognition, ESP-DL is currently limited in these aspects
 
