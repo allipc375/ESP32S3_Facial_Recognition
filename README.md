@@ -20,7 +20,7 @@ It is optimized for low power, low cost, and constrained embedded environments, 
 
 
 ## General Goals:
-- Compare Espressif's built-in recognition model against a MobileFaceNet model trained with ArcFace loss
+- Compare Espressif's built-in detection and recognition model (ESP-WHO) against a MobileFaceNet model trained with ArcFace loss
 - Explore whether different training data, embedding sizes, or model configurations improve recognition for my intended conditions
 - Demonstrate model conversion, quantization, inference optimization, and quantitative evaluation
 
