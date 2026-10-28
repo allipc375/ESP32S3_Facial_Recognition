@@ -3,3 +3,6 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+.pio/
+managed_components/
+sdkconfig.seeed_xiao_esp32s3
