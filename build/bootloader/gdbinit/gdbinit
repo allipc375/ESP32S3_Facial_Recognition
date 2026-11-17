@@ -1,0 +1,2 @@
+source C:/dev/xiao-face-native/build/bootloader/gdbinit/symbols
+source C:/dev/xiao-face-native/build/bootloader/gdbinit/connect
