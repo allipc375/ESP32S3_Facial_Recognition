@@ -18,6 +18,7 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "human_face_detect.bin"
   "human_face_detect.espdl.S"
   "human_face_detect.map"
+  "human_face_feat.espdl.S"
   "ldgen_libraries"
   "ldgen_libraries.in"
   "project_elf_src_esp32s3.c"

@@ -896,6 +896,13 @@ C:/dev/xiao-face-native/build/esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/install.dir
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/install/local.dir
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/install/strip.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/__idf_espressif__human_face_recognition.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/edit_cache.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/rebuild_cache.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/list_install_components.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/install.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/install/local.dir
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/CMakeFiles/install/strip.dir
 C:/dev/xiao-face-native/build/esp-idf/main/CMakeFiles/__idf_main.dir
 C:/dev/xiao-face-native/build/esp-idf/main/CMakeFiles/edit_cache.dir
 C:/dev/xiao-face-native/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

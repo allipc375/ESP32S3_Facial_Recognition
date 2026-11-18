@@ -149,6 +149,17 @@ dependencies:
       registry_url: https://components.espressif.com/
       type: service
     version: 0.5.2
+  espressif/human_face_recognition:
+    component_hash: 1c7d89f2bdf59ecf8396d657576cbf88739b20156edf990df0f9859e018c08f8
+    dependencies:
+    - name: espressif/human_face_detect
+      registry_url: https://components.espressif.com
+      require: private
+      version: ~0.5.0
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.3.3
   idf:
     source:
       type: idf
@@ -157,6 +168,7 @@ direct_dependencies:
 - espressif/esp32-camera
 - espressif/esp32_s3_eye_noglib
 - espressif/human_face_detect
-manifest_hash: 620b938f23166965f05d053d74996f42d36f5d1f4a311afc4dc35f58bed4e606
+- espressif/human_face_recognition
+manifest_hash: e6a32e1b219b3d06a192e94e57fdb3981f1894da16e5d330f501654f6f7de27d
 target: esp32s3
 version: 2.0.0

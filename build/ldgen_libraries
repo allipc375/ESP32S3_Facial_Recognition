@@ -90,4 +90,5 @@ C:/dev/xiao-face-native/build/esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp32-camera/libespressif__esp32-camera.a
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp_codec_dev/libespressif__esp_codec_dev.a
 C:/dev/xiao-face-native/build/esp-idf/espressif__esp32_s3_eye_noglib/libespressif__esp32_s3_eye_noglib.a
+C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/libespressif__human_face_recognition.a
 C:/dev/xiao-face-native/build/esp-idf/main/libmain.a

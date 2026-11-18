@@ -79,3 +79,4 @@ source "C:/dev/xiao-face-native/managed_components/espressif__esp32_s3_eye_nogli
 source "C:/dev/xiao-face-native/managed_components/espressif__esp_codec_dev/Kconfig"
 source "C:/dev/xiao-face-native/managed_components/espressif__esp_jpeg/Kconfig"
 source "C:/dev/xiao-face-native/managed_components/espressif__human_face_detect/Kconfig"
+source "C:/dev/xiao-face-native/managed_components/espressif__human_face_recognition/Kconfig"

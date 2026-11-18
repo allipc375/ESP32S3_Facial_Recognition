@@ -10,3 +10,4 @@ dependencies:
   espressif/human_face_detect:
     version: '*'
   espressif/esp32-camera: "*"
+  espressif/human_face_recognition: "*"

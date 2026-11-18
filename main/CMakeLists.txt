@@ -2,7 +2,7 @@ set(src_dirs        ./)
 
 set(include_dirs    ./)
 
-set(requires        human_face_detect)
+set(requires        human_face_detect       spiffs esp_timer)
 
 if (IDF_TARGET STREQUAL "esp32s3")
     list(APPEND requires esp32_s3_eye_noglib

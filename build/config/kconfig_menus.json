@@ -39015,6 +39015,134 @@
                 "id": "component-config-models-human_face_detect",
                 "title": "models: human_face_detect",
                 "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "!HUMAN_FACE_FEAT_MODEL_IN_SDCARD",
+                        "help": null,
+                        "id": "FLASH_HUMAN_FACE_FEAT_MFN_S8_V1",
+                        "name": "FLASH_HUMAN_FACE_FEAT_MFN_S8_V1",
+                        "range": null,
+                        "title": "flash human_face_feat_mfn_s8_v1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!HUMAN_FACE_FEAT_MODEL_IN_SDCARD",
+                        "help": null,
+                        "id": "FLASH_HUMAN_FACE_FEAT_MBF_S8_V1",
+                        "name": "FLASH_HUMAN_FACE_FEAT_MBF_S8_V1",
+                        "range": null,
+                        "title": "flash human_face_feat_mbf_s8_v1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "(HUMAN_FACE_FEAT_MODEL_IN_SDCARD || FLASH_HUMAN_FACE_FEAT_MFN_S8_V1) && <choice>",
+                                "help": null,
+                                "id": "HUMAN_FACE_FEAT_MFN_S8_V1",
+                                "name": "HUMAN_FACE_FEAT_MFN_S8_V1",
+                                "range": null,
+                                "title": "human_face_feat_mfn_s8_v1",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "(HUMAN_FACE_FEAT_MODEL_IN_SDCARD || FLASH_HUMAN_FACE_FEAT_MBF_S8_V1) && <choice>",
+                                "help": null,
+                                "id": "HUMAN_FACE_FEAT_MBF_S8_V1",
+                                "name": "HUMAN_FACE_FEAT_MBF_S8_V1",
+                                "range": null,
+                                "title": "human_face_feat_mbf_s8_v1",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "default human_face_feat model",
+                        "id": "component-config-models-human_face_feat-default-model",
+                        "name": null,
+                        "title": "default model",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "DEFAULT_HUMAN_FACE_FEAT_MODEL",
+                        "name": "DEFAULT_HUMAN_FACE_FEAT_MODEL",
+                        "range": null,
+                        "title": null,
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice>",
+                                "help": null,
+                                "id": "HUMAN_FACE_FEAT_MODEL_IN_FLASH_RODATA",
+                                "name": "HUMAN_FACE_FEAT_MODEL_IN_FLASH_RODATA",
+                                "range": null,
+                                "title": "flash_rodata",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice>",
+                                "help": null,
+                                "id": "HUMAN_FACE_FEAT_MODEL_IN_FLASH_PARTITION",
+                                "name": "HUMAN_FACE_FEAT_MODEL_IN_FLASH_PARTITION",
+                                "range": null,
+                                "title": "flash_partition",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice>",
+                                "help": null,
+                                "id": "HUMAN_FACE_FEAT_MODEL_IN_SDCARD",
+                                "name": "HUMAN_FACE_FEAT_MODEL_IN_SDCARD",
+                                "range": null,
+                                "title": "sdcard",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "human_face_feat model location",
+                        "id": "component-config-models-human_face_feat-model-location",
+                        "name": null,
+                        "title": "model location",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "HUMAN_FACE_FEAT_MODEL_LOCATION",
+                        "name": "HUMAN_FACE_FEAT_MODEL_LOCATION",
+                        "range": null,
+                        "title": null,
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "HUMAN_FACE_FEAT_MODEL_IN_SDCARD",
+                        "help": "Directory of models relative to sdcard mount point.",
+                        "id": "HUMAN_FACE_FEAT_MODEL_SDCARD_DIR",
+                        "name": "HUMAN_FACE_FEAT_MODEL_SDCARD_DIR",
+                        "range": null,
+                        "title": "human_face_feat model sdcard dir",
+                        "type": "string"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-models-human_face_feat",
+                "title": "models: human_face_feat",
+                "type": "menu"
             }
         ],
         "depends_on": null,

@@ -599,6 +599,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/dev/xiao-face-native/build/esp-idf/espressif__human_face_recognition/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/dev/xiao-face-native/build/esp-idf/main/cmake_install.cmake")
 endif()
 
